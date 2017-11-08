@@ -1,0 +1,17 @@
+[
+    {
+        "name": "USA Broad",
+        "currency": "USD",
+        "type": "C",
+        "assets": [
+            {
+                "name": "MU",
+                "quantity": 190
+            },
+            {
+                "name": "TSLA",
+                "quantity": 15
+            }
+        ]
+    }
+]

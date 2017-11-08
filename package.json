@@ -1,0 +1,22 @@
+{
+  "name": "stocks-watch-react-redux-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "fs": "^0.0.1-security",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently --kill-others \"npm run server\" \"npm run client\"",
+    "server": "node --experimental-modules  server.mjs",
+    "client": "cd client && npm start"
+  },
+  "author": "",
+  "license": "ISC"
+}
