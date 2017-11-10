@@ -5,16 +5,16 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.16.2",
-    "fs": "^0.0.1-security",
-    "react-router-dom": "^4.2.2"
+    "fs": "^0.0.1-security"
   },
   "devDependencies": {
-    "concurrently": "^3.5.0"
+    "concurrently": "^3.5.0",
+    "swagger-express-mw": "^0.7.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently --kill-others \"npm run server\" \"npm run client\"",
-    "server": "node --experimental-modules  server.mjs",
+    "server": "node --experimental-modules server.mjs",
     "client": "cd client && npm start"
   },
   "author": "",
