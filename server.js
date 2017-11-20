@@ -1,6 +1,6 @@
-import express from 'express';
-import fs from 'fs';
-import SwaggerExpress from 'swagger-express-mw';
+const express = require('express');
+const fs = require('fs');
+const SwaggerExpress = require('swagger-express-mw');
 
 const app = express();
 let config = {
